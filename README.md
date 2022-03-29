@@ -13,12 +13,12 @@ through a queue from an ISR to the dispatcher thread.
 
 4. Each Department thread (ambulance, police,…) has a limited number of resources It can use concurrently, so simulation accordingly:
 
-a. Ambulance – 4 (Units)
+  a. Ambulance – 4 (Units)
 
-b. Police – 3 (Units)
+  b. Police – 3 (Units)
 
-c. Fire department – 2 (Units)
+  c. Fire department – 2 (Units)
 
-d. Corona - 4 (Units)
+  d. Corona - 4 (Units)
 
 5. In addition, each Department thread and the dispatcher write an entry in a logging area (Printf/Uart Transmit in STM32)
