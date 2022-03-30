@@ -1,7 +1,7 @@
 # FreeRTOS_Dispatcher
 City dispatch simulation
 
-Simulate a "City Dispatch" unit. 
+Simulate a "City Dispatch" using the STM32 NUCLEO-F746ZG M7. 
 Different Events come into the centralized city "dispatcher", the events should be sent to the required departments (Police, Fire, Ambulance, Corona).
 
 1. We simulate (implement) the events using random messages and sends them 
